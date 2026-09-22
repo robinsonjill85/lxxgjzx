@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计日志采样降低存储开销方案
+简介：Nginx 反向代理路由配置实战，配置 Nginx 反向代理，实现请求转发、路由分发，掌握 Nginx 基础配置能力。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18379581.html
+
+原标题：golang 时间时区处理避坑指南
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/29247177.html
+
+原标题：golang kafka 消费者组原理讲解
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/31804727.html
+
+原标题：golang 优雅处理数据库事务
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96059281.html
+
+原标题：性能复盘：内存泄漏定位，内存持续上涨优化
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/60806947.html
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07140513.html
+
+原标题：golang kafka 监控指标简单梳理
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18314039.html
+
+原标题：golang 系统设计定时任务分布式锁
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/30463525.html
+
+原标题：开发记录：跨域中间件完整配置与边界处理
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/47584806.html
+
+原标题：golang redis 事务 multi exec 使用
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/74829142.html
+
+原标题：部署实践：服务器SSH安全加固配置实践
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07161573.html
+
+原标题：CI 构建缓存加速编译速度
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/64912816.html
+
+原标题：配置与镜像分离防止信息泄露
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96169581.html
+
+原标题：开发复盘：大JSON解析分批处理避免内存溢出
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/29384614.html
+
+原标题：热更新开发环境配置教程
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/30414039.html
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41614047.html
+
+原标题：动态定时任务业务调度实现
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/60892473.html
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/69793506.html
+
+原标题：Performance：批量导入数据性能优化实践
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/63836069.html
+
+原标题：线上异常：布隆过滤器误判造成业务逻辑异常
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/28670691.html
+
+原标题：Hands‑on：简易ID生成雪花算法完整实现
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/83806139.html
+
+原标题：golang 结构体 json 序列化坑点
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/11503028.html
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/74835846.html
+
+原标题：线程调度优化减少上下文切换
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/63725168.html
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/04351452.html
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/85913025.html
+
+原标题：golang mysql 连接泄漏检测方法
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/82524726.html
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07179585.html
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/82400441.html
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/26736798.html
+
+原标题：Performance：数据库大表优化，冷热数据分离
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/93465779.html
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/00200813.html
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：golang 项目目录分层规范设计，Go 后端项目目录分层规范，按领域分层，提高项目可读性可维护性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/75817960.html
+
+原标题：golang 系统设计开源项目 issue pr 模板编写
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/28391927.html
+
+原标题：数据库连接及时关闭连接泄漏
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96028069.html
+
+原标题：Debug：表单提交特殊字符造成接口解析失败
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/37483707.html
+
+原标题：golang 项目 go mod 依赖管理
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07239295.html
+
+原标题：数值 key 浮点匹配异常规避
+简介：限流窗口绕过漏洞修复方案，修复限流时间窗口漏洞，避免攻击者绕过限流规则，保障接口防护有效。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18259289.html
+
+原标题：golang redis 位图用户签到统计
+简介：跨平台 uniapp 多端开发实操，uniapp 开发一套代码，编译多端，梳理多端差异处理与适配技巧。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/08281707.html
+
+原标题：golang mysql 联合索引最左匹配
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07380695.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计接口参数防篡改校验
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96058069.html
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/52613525.html
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96727817.html
+
+原标题：Debug：请求头过大Nginx拒绝连接报错
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/14856252.html
+
+原标题：新手教程：配置SSH‑Key免密访问GitHub
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/19491362.html
+
+原标题：golang 系统设计日志脱敏敏感字段过滤处理
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/63733925.html
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/75916957.html
+
+原标题：golang redis 过期策略内存淘汰
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/42957369.html
+
+原标题：golang 系统设计用户签到统计方案
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/30371493.html
+
+原标题：坑点：缓存过期策略不当引发业务异常
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/85250262.html
+
+原标题：分页逻辑错误数据漏查修复
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96361584.html
+
+原标题：空指针异常判空容错处理
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/70413036.html
+
+原标题：Hands‑on：简易代理服务器开发实践
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18258461.html
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/17261405.html
+
+原标题：golang 系统设计分布式锁看门狗续期原理理解
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/52583815.html
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/87246958.html
+
+原标题：golang 雪花 id 重复问题排查
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96038038.html
+
+原标题：golang md5 sha 加密工具实现
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41505136.html
+
+原标题：golang 系统设计并发控制协程池任务池实现
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/63626951.html
+
+原标题：golang 配置热更新不重启服务
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41502624.html
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/82927069.html
+
+原标题：nodejs jwt 登录鉴权完整示例
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/48594795.html
+
+原标题：golang 系统设计单元测试边界条件覆盖思路
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/61694695.html
+
+原标题：Performance：JSON序列化性能优化实践
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/04745247.html
+
+原标题：文件描述符优化进程卡死修复
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/31473580.html
+
+原标题：DNS TTL 配置域名切换生效
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/81623925.html
+
+原标题：golang 系统设计分布式锁不同场景选型对比
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/19299249.html
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/20379592.html
+
+原标题：golang net/http 超时全套配置
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/74270695.html
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/85051401.html
+
+原标题：架构复盘：多实例部署业务状态无状态改造
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96757957.html
+
+原标题：golang 系统设计数据库查询优化完整流程
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18250240.html
+
+原标题：golang mysql 时间类型选型避坑
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/70816847.html
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18250492.html
+
+原标题：golang 信号捕获程序退出处理
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/85927191.html
+
+原标题：golang 系统设计日志系统架构思路
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/29513039.html
+
+原标题：性能复盘：慢SQL定位、分析、改写完整案例
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/71412824.html
+
+原标题：golang http client 连接池调优
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/52592514.html
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18149289.html
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18290704.html
+
+三、实战开发｜Practice
+原标题：vue3 组合式 API 业务开发实战
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18291929.html
+
+原标题：用户敏感数据脱敏代码实现
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/85159140.html
+
+原标题：golang 定时任务 cron 使用指南
+简介：全平台系统环境变量配置，汇总多操作系统环境变量配置方法，统一项目读取逻辑，适配不同运行平台。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/97140352.html
+
+原标题：golang mysql limit 大分页优化
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/63702813.html
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/74704525.html
+
+原标题：DevOps：私有镜像仓库搭建与权限管控
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41627069.html
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/85817039.html
+
+原标题：无用对象回收抑制内存上涨
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/97147142.html
+
+原标题：开发记录：数据库悲观锁乐观锁业务场景实践
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/03750362.html
+
+原标题：实战：单元测试+集成测试完整项目落地实践
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/59694817.html
+
+原标题：golang 系统设计大事务拆分实战思路
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18259140.html
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/08950584.html
+
+原标题：Debug：请求头过大Nginx拒绝连接报错
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/97135247.html
+
+原标题：开发记录：数据库悲观锁乐观锁业务场景实践
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/26472595.html
+
+原标题：入门实践：搭建简单的热更新开发环境
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/09280292.html
+
+原标题：全局本地依赖隔离冲突规避
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07927936.html
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96170583.html
+
+原标题：golang kafka offset 提交策略
+简介：静态资源 404 路径打包修复，修复打包后静态资源访问 404，调整资源输出路径，保证资源正常加载。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18149291.html
+
+原标题：golang mysql 分表自增 id 方案
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/14361402.html
+
+原标题：Hands‑on：搭建OAuth2简易授权服务Demo
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/47594735.html
+
+原标题：golang 系统设计日志本地打印线上关闭调试信息
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/98394725.html
+
+原标题：缓存过期策略优化防业务故障
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/85927069.html
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：golang cron 任务漂移问题处理，cron 任务执行超时导致任务漂移，通过分布式锁防止任务重叠执行。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/98140357.html
+
+原标题：线上故障：慢查询拖垮整个数据库服务
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96923928.html
+
+原标题：记一次升级操作系统内核引发服务不稳定
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07170280.html
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/63134161.html
+
+原标题：DevOps：Docker镜像安全扫描集成CI流程
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/52635735.html
+
+原标题：AI‑Dev：AI辅助编码高效使用提示词技巧
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/06138252.html
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/75957470.html
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/14245047.html
+
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/31805924.html
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07291036.html
+
+原标题：项目实践：灰度发布简易方案落地实践
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41584625.html
+
+原标题：golang 系统设计 tcp 粘包拆包处理方案实现
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/52745253.html
+
+原标题：快速入门消息通知简单实现方案
+简介：golang 内存碎片问题识别与规避，大量小对象频繁分配产生内存碎片，通过对象池减少碎片。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/30413025.html
+
+原标题：golang 雪花 id 重复问题排查
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96068473.html
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/07280473.html
+
+原标题：服务启动依赖顺序配置正确
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/75513039.html
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96030692.html
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/63705914.html
+
+四、架构设计｜Architecture
+原标题：异步任务堆积消费能力优化
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/52693606.html
+
+原标题：Practice：实现请求ID透传全链路日志实践
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/30413140.html
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/29363625.html
+
+原标题：快速上手简单信号处理脚本编写
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/52624132.html
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/18573583.html
+
+原标题：golang prometheus counter gauge 使用
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41695802.html
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41572517.html
+
+原标题：架构复盘：消息死信处理架构避免消息丢失
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/28267968.html
+
+原标题：OpenSource：开源项目风险评估依赖安全检查
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/08283314.html
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/62735968.html
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/29250514.html
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41460341.html
+
+原标题：css 动画性能优化 GPU 加速
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/93039250.html
+
+原标题：golang 系统设计 ci 流水线安全管控思路
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/29615846.html
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/41582527.html
+
+原标题：异步异常捕获避免进程崩溃
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/96061473.html
+
+原标题：系统字符集统一乱码修复
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/29302804.html
+
+原标题：上传接口跨域配置特殊适配
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://www.blog.cnozh.cn/okvup/03149280.html
+
+?
