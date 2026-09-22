@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：项目脚手架模板生成工具
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：3g.endoai.cn/Article/details/21525136.shtml
+
+原标题：golang docker 部署 kafka 本地调试
+简介：golang go mod 私有 git 仓库配置，配置 go mod 拉取私有仓库代码，处理私有模块依赖拉取问题。
+ | 原文链接：3g.endoai.cn/Article/details/52614868.shtml
+
+原标题：部署实践：内网开发环境代理配置实践
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：3g.endoai.cn/Article/details/42583624.shtml
+
+原标题：golang 系统设计 go benchmark 性能测试实操
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：3g.endoai.cn/Article/details/32524829.shtml
+
+原标题：Practice：实现跨机器文件同步脚本实践
+简介：golang grpc 客户端拦截器封装，grpc 客户端拦截器实现请求统一签名、重试、链路信息透传。
+ | 原文链接：3g.endoai.cn/Article/details/09185675.shtml
+
+原标题：golang 系统设计分布式任务调度
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：3g.endoai.cn/Article/details/45896089.shtml
+
+原标题：项目构建脚本编译打包解析
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：3g.endoai.cn/Article/details/41624147.shtml
+
+原标题：golang 跨域处理中间件编写
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：3g.endoai.cn/Article/details/53725161.shtml
+
+原标题：开源实践：给开源项目写单元测试贡献代码
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：3g.endoai.cn/Article/details/96058041.shtml
+
+原标题：快速入门ORM，实现简单数据库增删改查
+简介：进程线程并发基础概念讲解，区分进程与线程，讲解调度逻辑，理解并发执行原理，为高并发业务开发打基础。
+ | 原文链接：3g.endoai.cn/Article/details/60817039.shtml
+
+原标题：golang 分布式锁 redis 实现
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：3g.endoai.cn/Article/details/26350403.shtml
+
+原标题：golang 系统设计 docker compose 本地开发环境搭建
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：3g.endoai.cn/Article/details/85945129.shtml
+
+原标题：Hands‑on：代码生成器，一键生成CRUD模板
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：3g.endoai.cn/Article/details/30461425.shtml
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：3g.endoai.cn/Article/details/98272473.shtml
+
+原标题：实战项目：多实例部署会话一致性验证实践
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：3g.endoai.cn/Article/details/63725140.shtml
+
+原标题：异步异常捕获避免进程崩溃
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：3g.endoai.cn/Article/details/96072474.shtml
+
+原标题：golang lru 缓存淘汰算法编写
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：3g.endoai.cn/Article/details/75947362.shtml
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：3g.endoai.cn/Article/details/96452503.shtml
+
+原标题：golang 系统设计大事务拆分实战思路
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：3g.endoai.cn/Article/details/06168468.shtml
+
+原标题：调优方案：CDN优化静态资源访问延迟
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：3g.endoai.cn/Article/details/07271405.shtml
+
+原标题：磁盘 inode 耗尽文件创建失败
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：3g.endoai.cn/Article/details/29492180.shtml
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：3g.endoai.cn/Article/details/97270694.shtml
+
+原标题：前端图片懒加载性能优化
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：3g.endoai.cn/Article/details/07170381.shtml
+
+原标题：Performance：数据库大表优化，冷热数据分离
+简介：golang snowflake 时钟回拨解决方案，雪花算法处理时钟回拨，防止生成重复 ID，保证 ID 全局唯一。
+ | 原文链接：3g.endoai.cn/Article/details/41575802.shtml
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：golang 优雅处理数据库事务，Go 数据库事务封装，正确处理事务提交回滚，保证业务数据一致性。
+ | 原文链接：3g.endoai.cn/Article/details/93139280.shtml
+
+原标题：开发复盘：消息队列消息顺序性业务落地实践
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：3g.endoai.cn/Article/details/59685706.shtml
+
+原标题：Performance：数据库join优化，大表join规避
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：3g.endoai.cn/Article/details/96059794.shtml
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：3g.endoai.cn/Article/details/40461585.shtml
+
+原标题：golang http 请求重试封装工具
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：3g.endoai.cn/Article/details/09189896.shtml
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：3g.endoai.cn/Article/details/33664586.shtml
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：3g.endoai.cn/Article/details/09289676.shtml
+
+原标题：Security：RPC调用身份认证安全加固
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：3g.endoai.cn/Article/details/52625351.shtml
+
+原标题：实践：API版本控制多种策略落地对比实践
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：3g.endoai.cn/Article/details/59271795.shtml
+
+原标题：内网 DNS 不稳定随机报错排查
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：3g.endoai.cn/Article/details/10469580.shtml
+
+原标题：golang 系统设计网关缓存静态资源实现思路
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：3g.endoai.cn/Article/details/41503021.shtml
+
+原标题：DevOps：容器健康探针livenessreadiness配置
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：3g.endoai.cn/Article/details/29381807.shtml
+
+原标题：限流窗口绕过漏洞修复方案
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：3g.endoai.cn/Article/details/18340682.shtml
+
+原标题：golang 系统设计故障定位排查通用步骤方法论
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：3g.endoai.cn/Article/details/30502425.shtml
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：3g.endoai.cn/Article/details/30492806.shtml
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：3g.endoai.cn/Article/details/74903025.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：3g.endoai.cn/Article/details/94240392.shtml
+
+原标题：零基础理解跨域问题产生原因与基础方案
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：3g.endoai.cn/Article/details/52616261.shtml
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：3g.endoai.cn/Article/details/85958379.shtml
+
+原标题：HTTP 状态码请求头完整梳理
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：3g.endoai.cn/Article/details/48584725.shtml
+
+原标题：golang consul 健康检查服务注册
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：3g.endoai.cn/Article/details/29380693.shtml
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：3g.endoai.cn/Article/details/71140148.shtml
+
+原标题：调优方案：消息队列消费速度优化处理堆积
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：3g.endoai.cn/Article/details/86172476.shtml
+
+原标题：golang 系统设计短链接服务实现思路
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：3g.endoai.cn/Article/details/63115140.shtml
+
+原标题：设计思考：系统限流熔断降级完整防护体系
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：3g.endoai.cn/Article/details/41684831.shtml
+
+原标题：golang github actions 发布 release 包
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：3g.endoai.cn/Article/details/52685716.shtml
+
+原标题：golang 系统设计代码仓库权限管理方案
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：3g.endoai.cn/Article/details/42836259.shtml
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：3g.endoai.cn/Article/details/30503929.shtml
+
+原标题：golang 系统设计 tcp keepalive 参数调优实践
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：3g.endoai.cn/Article/details/74996861.shtml
+
+原标题：golang gin 静态资源访问配置
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：3g.endoai.cn/Article/details/43570349.shtml
+
+原标题：避坑：版本升级之后项目直接无法启动
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：3g.endoai.cn/Article/details/65857125.shtml
+
+原标题：golang docker 私有仓库搭建使用
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：3g.endoai.cn/Article/details/97008012.shtml
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：3g.endoai.cn/Article/details/50460338.shtml
+
+原标题：Debug：消息队列死信队列堆积无人处理业务阻塞
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：3g.endoai.cn/Article/details/59179507.shtml
+
+原标题：Hands‑on：实现服务健康检查与自动报警demo
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：3g.endoai.cn/Article/details/26451374.shtml
+
+原标题：从零学习简单分页逻辑实现思路
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：3g.endoai.cn/Article/details/20403515.shtml
+
+原标题：golang redis 发布订阅简单示例
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：3g.endoai.cn/Article/details/07168040.shtml
+
+原标题：Performance：长连接管理优化减少连接重建开销
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：3g.endoai.cn/Article/details/96162562.shtml
+
+原标题：Performance：大事务拆分，减少锁持有时间
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：3g.endoai.cn/Article/details/92037252.shtml
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：3g.endoai.cn/Article/details/18381706.shtml
+
+原标题：golang 系统设计代码评审 checklist 清单
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：3g.endoai.cn/Article/details/85917061.shtml
+
+原标题：百万数据 Excel 导出内存优化
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：3g.endoai.cn/Article/details/96058475.shtml
+
+原标题：Practice：实现防爬虫简单拦截中间件实践
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：3g.endoai.cn/Article/details/29381707.shtml
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：3g.endoai.cn/Article/details/85128138.shtml
+
+原标题：数据库读写分离性能优化
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：3g.endoai.cn/Article/details/63828142.shtml
+
+原标题：golang 系统设计短信发送限流降级
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：3g.endoai.cn/Article/details/20492526.shtml
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：3g.endoai.cn/Article/details/30402517.shtml
+
+原标题：零基础理解缓存基础原理与简单使用
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：3g.endoai.cn/Article/details/18240274.shtml
+
+原标题：复盘总结：技术选型对比文档模板实践
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：3g.endoai.cn/Article/details/85958693.shtml
+
+原标题：golang 系统设计 mq 消息重复消费处理
+简介：golang 熔断降级简易组件开发，Go 简易熔断组件，下游故障触发熔断，保护上游服务不被拖垮。
+ | 原文链接：3g.endoai.cn/Article/details/86058694.shtml
+
+原标题：限流规则误拦截正常请求修复
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：3g.endoai.cn/Article/details/18270582.shtml
+
+原标题：golang redis set 集合去重业务
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：3g.endoai.cn/Article/details/26353637.shtml
+
+原标题：golang gorm 批量插入性能调优
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：3g.endoai.cn/Article/details/18270796.shtml
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：3g.endoai.cn/Article/details/82514636.shtml
+
+原标题：踩坑记录：数值溢出造成业务ID错乱异常
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：3g.endoai.cn/Article/details/74738171.shtml
+
+原标题：开源实践：开源项目本地调试构建排坑经验
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：3g.endoai.cn/Article/details/40458123.shtml
+
+三、实战开发｜Practice
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：3g.endoai.cn/Article/details/56967791.shtml
+
+原标题：golang 系统设计分库分表扩容平滑迁移
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：3g.endoai.cn/Article/details/83525554.shtml
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：3g.endoai.cn/Article/details/37900437.shtml
+
+原标题：入门实践：搭建简单的热更新开发环境
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：3g.endoai.cn/Article/details/46825582.shtml
+
+原标题：Hands‑on：简易布隆过滤器实现与测试验证
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：3g.endoai.cn/Article/details/93791447.shtml
+
+原标题：JWT 令牌过期异常处理
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：3g.endoai.cn/Article/details/05251495.shtml
+
+原标题：开发生产环境资源路径统一
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：3g.endoai.cn/Article/details/63738141.shtml
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：3g.endoai.cn/Article/details/52916061.shtml
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：3g.endoai.cn/Article/details/29381577.shtml
+
+原标题：golang etcd 配置中心简单使用
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：3g.endoai.cn/Article/details/63727960.shtml
+
+原标题：部署实践：数据库迁移脚本版本管理实践
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：3g.endoai.cn/Article/details/30481704.shtml
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：3g.endoai.cn/Article/details/98086689.shtml
+
+原标题：安全实践：输入输出双向过滤安全最佳实践
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：3g.endoai.cn/Article/details/89324446.shtml
+
+原标题：运维笔记：线上服务健康检查脚本编写
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：3g.endoai.cn/Article/details/10412352.shtml
+
+原标题：架构笔记：业务操作审计日志系统架构设计
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：3g.endoai.cn/Article/details/31570617.shtml
+
+原标题：golang 系统设计技术方案文档模板参考
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：3g.endoai.cn/Article/details/87170261.shtml
+
+原标题：golang 项目环境变量加载方案
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：3g.endoai.cn/Article/details/41503935.shtml
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：3g.endoai.cn/Article/details/96458502.shtml
+
+原标题：CI 持续集成自动构建流程
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：3g.endoai.cn/Article/details/31816915.shtml
+
+原标题：站内邮件消息通知功能开发
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：3g.endoai.cn/Article/details/98350393.shtml
+
+原标题：golang 系统设计数据库索引设计方法论
+简介：消息队列消费堆积扩容处理，消息大量堆积时，扩容消费实例，优化消费逻辑，加快消息处理速度。
+ | 原文链接：3g.endoai.cn/Article/details/52591709.shtml
+
+原标题：golang 系统设计业务指标系统指标定义思路
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：3g.endoai.cn/Article/details/74148170.shtml
+
+原标题：新手教程：本地环境变量配置全流程
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：3g.endoai.cn/Article/details/74906138.shtml
+
+原标题：golang 多协程任务池并发控制
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：3g.endoai.cn/Article/details/29361405.shtml
+
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：3g.endoai.cn/Article/details/29361794.shtml
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：3g.endoai.cn/Article/details/51670593.shtml
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：3g.endoai.cn/Article/details/85927060.shtml
+
+原标题：实践：API错误统一捕获与告警通知实践
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：3g.endoai.cn/Article/details/41534041.shtml
+
+原标题：nodejs 内存溢出问题排查修复
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：3g.endoai.cn/Article/details/51924147.shtml
+
+原标题：开发复盘：大列表内存分批读取避免OOM实践
+简介：JWT 令牌过期异常处理，捕获 JWT 过期、篡改异常，编写业务处理逻辑，引导用户重新获取令牌。
+ | 原文链接：3g.endoai.cn/Article/details/74835141.shtml
+
+原标题：性能复盘：消息队列大量小消息性能问题优化
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：3g.endoai.cn/Article/details/03134138.shtml
+
+原标题：golang 系统设计网关性能压测优化简单思路
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：3g.endoai.cn/Article/details/29394708.shtml
+
+原标题：MySQL 慢查询索引优化实战
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：3g.endoai.cn/Article/details/04279585.shtml
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：3g.endoai.cn/Article/details/07149292.shtml
+
+原标题：Issue：日志疯狂打日志快速占满磁盘空间
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：3g.endoai.cn/Article/details/07179582.shtml
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：3g.endoai.cn/Article/details/54816960.shtml
+
+原标题：golang redis 集群 hash 槽讲解
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：3g.endoai.cn/Article/details/85938060.shtml
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：3g.endoai.cn/Article/details/20680695.shtml
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：3g.endoai.cn/Article/details/96350374.shtml
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：3g.endoai.cn/Article/details/42694637.shtml
+
+四、架构设计｜Architecture
+原标题：golang 系统设计开源 pr 评审合并流程实操
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：3g.endoai.cn/Article/details/26472515.shtml
+
+原标题：golang 系统设计 protobuf 默认值坑点梳理
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：3g.endoai.cn/Article/details/44150249.shtml
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：3g.endoai.cn/Article/details/18371364.shtml
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：3g.endoai.cn/Article/details/30462516.shtml
+
+原标题：性能复盘：GC停顿过长业务卡顿优化记录
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：3g.endoai.cn/Article/details/41583626.shtml
+
+原标题：排错：GitLFS大文件推送失败完整排障
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：3g.endoai.cn/Article/details/74817071.shtml
+
+原标题：react hooks 常见陷阱避坑指南
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：3g.endoai.cn/Article/details/96038471.shtml
+
+原标题：Hands‑on：简易压缩中间件gzip实现实践
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：3g.endoai.cn/Article/details/53734736.shtml
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：3g.endoai.cn/Article/details/15361414.shtml
+
+原标题：部署实践：服务器SSH安全加固配置实践
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：3g.endoai.cn/Article/details/92634148.shtml
+
+原标题：静态博客部署 GitHub Pages 教程
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：3g.endoai.cn/Article/details/41583538.shtml
+
+原标题：程序预加载加快服务启动速度
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：3g.endoai.cn/Article/details/26370693.shtml
+
+原标题：golang docker compose 依赖启动顺序
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：3g.endoai.cn/Article/details/49304700.shtml
+
+原标题：OpenSource：开源项目版本发布CHANGELOG编写
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：3g.endoai.cn/Article/details/29394929.shtml
+
+原标题：golang 系统设计缓存预热脚本编写实操
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：3g.endoai.cn/Article/details/98289685.shtml
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：3g.endoai.cn/Article/details/30368464.shtml
+
+原标题：预编译 SQL 防注入实现
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：3g.endoai.cn/Article/details/18280582.shtml
+
+原标题：golang gin 路由分组权限管控
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：3g.endoai.cn/Article/details/86957170.shtml
+
+?
